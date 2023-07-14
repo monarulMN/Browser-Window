@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Open & Rresizikng windows</title>
+    </head>
+    <body>
+        <script>
+            function openWin()
+            {
+                myWindow = window.open("","myWindow","width=20,hight=20");
+                myWindow.document.write("<p>This is my Window</P>");
+            }
+        </script>
+        <h1>Open and Resizing Windows</h1>
+        <form name ="form1">
+            <input type="button" value="Open New Window" onclick="openWin()">
+            <input type="button" value="Resize(New) Window" onclick="myWWindow.resizeTo(300,300)">
+        </form>
+    </body>
+</html>
